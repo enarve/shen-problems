@@ -1,0 +1,1 @@
+My solutions to Alexander Shen [programming problems book](https://old.mccme.ru/free-books/shen/shen-progbook.pdf) («Программирование: теоремы и задачи»).
