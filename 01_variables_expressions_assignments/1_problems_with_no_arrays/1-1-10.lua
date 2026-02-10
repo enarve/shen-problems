@@ -1,5 +1,5 @@
 -- Problem 1.1.10
--- fib in O(logn)
+-- fib in O(logn) operations with matrix
 
 local function mt_mult(a, b)
     local res = {}
