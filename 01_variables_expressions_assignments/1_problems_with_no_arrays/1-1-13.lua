@@ -30,7 +30,30 @@ local function nod(a, b)
     end
 end
 
+local function euclide(a, b)
+    local m = a
+    local n = b
+    while not ((m == 0) or (n == 0)) do
+        if m >= n then
+            m = m - n
+        else 
+            n = n - m
+        end
+    end
+    if m == 0 then
+        return n
+    else
+        return m
+    end
+end
+
 -- Test
+print("nod:")
 print(nod(4, 8))
 print(nod(32, 16))
 print(nod(0, 9))
+
+print("euclide:")
+print(euclide(4, 8))
+print(euclide(32, 16))
+print(euclide(0, 9))
