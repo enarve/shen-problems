@@ -8,4 +8,4 @@ end
 
 -- Test
 local n = 8
-print_squares(8)
+print_squares(n)
