@@ -27,3 +27,6 @@ while char do
     char = input_file:read(1)
     output_file:flush()
 end
+if star_occured then
+	output_file:write("*")
+end
