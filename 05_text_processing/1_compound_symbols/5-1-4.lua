@@ -1,7 +1,5 @@
 -- Problem 5.1.4
 
--- Problem 5.1.3
-
 local input_file = io.open("input.txt", "r")
 local output_file = io.open("output.txt", "w")
 
